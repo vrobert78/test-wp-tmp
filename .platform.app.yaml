@@ -17,7 +17,7 @@ hooks:
         # Copy manually-provided plugins into the plugins directory.
         # This allows manually-provided and composer-provided plugins to coexist.
         rsync -a plugins/* wordpress/wp-content/plugins/
-        echo "test3"
+        echo "test4"
 
 # The relationships of the application with services or other applications.
 # The left-hand side is the name of the relationship as it will be exposed
